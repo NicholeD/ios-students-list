@@ -63,7 +63,6 @@ class StudentsViewController: UIViewController {
         studentController.filter(with: filter, sortedBy: sort) { students in
             self.filteredAndSortedStudents = students
         }
-        
     }
 }
 
